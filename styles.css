@@ -19,6 +19,8 @@ header{
 }
 
 li {
+    cursor: pointer;
+    transition: transform 0.2s;
     list-style: none;
     color: #c8a8dd;
     font-weight: 500;
@@ -27,6 +29,11 @@ li {
     border-right: 1px solid #c8a8dd;
     height: 30px;
     box-shadow: 0 30px 20px rgba(252, 248, 251, 0.295), 0 6px 6px #F8F2ED;
+}
+
+li:hover {
+    transform: scale(1.1); 
+    font-weight: bold;
 }
 
 ul{
@@ -41,7 +48,6 @@ section{
     margin-right: auto;
     width: 50%;
     text-align: center;
-    
     height: auto;
     padding: 100px;
     background-color: #bffefe;
