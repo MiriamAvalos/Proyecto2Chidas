@@ -5,8 +5,11 @@
 }
 
 body {
-
-    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
     align-items: flex-start;
     background-color: #F8F2ED;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,20 +43,26 @@ li:hover {
 }
 
 section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-    text-align: center;
+   
     background-color: #bffefe;
     background-position: center bottom;
-    font-size: 2.8rem;
-    color: rgb(243, 100, 233);
     font-weight: 600;
     border: 2px solid #6bf3f3;
     border-radius: 10px;
-    margin-top: 5%;
+    max-width: 50%; 
+    max-height: 50%; 
+    margin: 50px auto 0; /* Esto centrará la sección horizontalmente */
+}
+
+.divSection{ 
+    font-size: 100%;
+    text-align: center;
+    padding:2rem;
+    width: auto;
+    color: rgb(243, 100, 233);
+    box-sizing: border-box;
+   
+    
 }
 
 footer {
@@ -65,7 +74,7 @@ footer {
     justify-content: center;
     text-align: center;
     align-items: center;
-    padding: 20px; /* Añadido espacio al padding para mejor apariencia */
+    padding: 20px; 
 }
 
 #imagenFooter {
