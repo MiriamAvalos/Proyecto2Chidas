@@ -6,13 +6,24 @@ Este proyecto es un clon de la página web de CHIDAS TECH, creado como parte de 
 
 La página web replica la estructura y diseño de CHIDAS TECH, una organización que promueve la participación de mujeres en STEM. Se ha utilizado Bootstrap para facilitar el diseño responsivo y garantizar una experiencia agradable tanto en dispositivos de escritorio como en dispositivos móviles.
 
-## Capturas de Pantalla
+<br>
+<br>
+<div align="center">
+  <h2>Vista Escritorio</h2>
+  
+</div>
 
-### Versión de Escritorio
 ![Desktop](desktop.png)
+<br>
+<br>
 
-### Versión Móvil
-![Mobile](mobile.png)
+
+
+<div align="center">
+  <h2>Vista Móvil</h2>
+  <img src="mobile.png" alt="Vista Móvil" width="200" />
+</div>
+
 
 ## Tecnologías Utilizadas
 
