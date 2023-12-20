@@ -20,3 +20,8 @@ La página web replica la estructura y diseño de CHIDAS TECH, una organización
 - CSS
 - [Bootstrap](https://getbootstrap.com/): Framework de desarrollo web para diseño responsivo.
 
+
+[Enlace al Proyecto](https://proyecto2-chidas.vercel.app/) ✌️
+
+  
+
